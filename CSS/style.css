@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+h2 {
+  text-align: center;
+  word-spacing:10px;
+  color: white;
+
+}
+.row_forA {
+  text-align: center;
+  word-spacing:90px;
+  color: white;
+
+}
+#main {
+  background-color: turquoise;
+  width: 760px;
+  height: 620px;
+  margin:  auto;
+}
+
+.empty {
+  background-color: rgb(97, 97, 97);
+  width: 85px;
+  height: 63px;
+  margin: 5px;
+  float: left;
+}
+
+.box {
+  background-image: url(../images/images.jpg);
+  background-size: contain;
+  width: 50px;
+  height: 53px;
+  margin: auto;
+  margin-top: 4px;
+  border-radius: 50%;
+}
+
+#white {
+  background-image: url(../images/white.jpg);
+  background-size: contain;
+  width: 53px;
+  height: 53px;
+  margin: auto;
+  margin-top: 4px;
+  border-radius: 50%;
+  
+}
+#blockBox {
+  background-color: rgb(17, 3, 3);
+  width: 85px;
+  height: 63px;
+  margin: 5px;
+  float: left;
+}
+/* .hold & .hovered is only for design. */
+.hold {
+  border: 3px dashed green;
+  border-radius: 50%;
+}
+.hovered {
+  background: rgb(228, 5, 5);
+  border: 1px black solid;
+}
+.invisible {
+  display: none;
+}
